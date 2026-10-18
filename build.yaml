@@ -1,7 +1,4 @@
 yaml
 ---
-include:
-  - board: nice_nano
-    shield: romac
-  - board: nice_nano
-    shield: settings_reset
+board: [ "nice_nano" ]
+shield: [ "romac", "settings_reset" ]
